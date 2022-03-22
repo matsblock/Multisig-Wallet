@@ -3,7 +3,6 @@ pragma solidity 0.8.12;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-
 contract Bat is ERC20 {
   constructor() ERC20('BAT', 'Brave browser token') {}
 
@@ -11,3 +10,5 @@ contract Bat is ERC20 {
     _mint(to, amount);
   }
 }
+
+//test1
