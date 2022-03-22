@@ -1,0 +1,28 @@
+{
+  "name": "multisig-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsblock/Multisig-Wallet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matsblock/Multisig-Wallet/issues"
+  },
+  "homepage": "https://github.com/matsblock/Multisig-Wallet#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "web3": "^1.6.1"
+  }
+}
